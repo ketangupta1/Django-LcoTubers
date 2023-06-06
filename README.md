@@ -36,3 +36,12 @@ My first Django project that i learnt from Learn Code Online by Hitesh Chaudhary
   
     $ python3 manage.py runserver
   
+
+## Create an admin User
+  Django comes up with a default admin panel you just have to create user for it and start using it.
+  Creation of superuser:
+
+    $ python3 manage.py createsuperuser
+
+  Enter all the required fields and your superuser created.
+  type 127.0.0.1:8000/admin/ for entering into admin panel.
